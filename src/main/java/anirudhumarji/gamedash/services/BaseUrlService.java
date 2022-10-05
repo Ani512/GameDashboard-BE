@@ -8,8 +8,8 @@ public class BaseUrlService {
     public static Map<String, String> endPointList() {
         HashMap<String, String> endPoints = new HashMap<>();
 
-        endPoints.put("/", "baseURL which returns list of all Endpoints");
-        endPoints.put("/version", "returns the version of the API being used");
+        endPoints.put("/", "baseURL which returns list of all Endpoints.");
+        endPoints.put("/version", "returns the version of the API being used.");
 
         return endPoints;
     }
