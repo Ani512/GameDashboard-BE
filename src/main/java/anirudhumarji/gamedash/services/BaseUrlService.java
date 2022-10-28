@@ -10,6 +10,7 @@ public class BaseUrlService {
 
         endPoints.put("/", "baseURL which returns list of all Endpoints.");
         endPoints.put("/version", "returns the version of the API being used.");
+        endPoints.put("/calculate", "returns sum of distances from line segment");
 
         return endPoints;
     }
